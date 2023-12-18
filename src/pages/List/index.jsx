@@ -12,7 +12,6 @@ import { Dialog } from "primereact/dialog";
 import { Tag } from "primereact/tag";
 import { Toast } from "primereact/toast";
 import { taskStatuses, taskStatusesAndColors } from "../../utils/constants";
-import { m_taskList } from "../../mock/data";
 import {
   addTask,
   getTasks,
