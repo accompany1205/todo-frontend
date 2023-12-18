@@ -36,7 +36,6 @@ const SignUp = () => {
     }),
     onSubmit: (values) => {
       const { email, password, name } = values;
-      console.log(JSON.stringify(values, null, 2));
       signUp(email, password, name);
     },
   });
